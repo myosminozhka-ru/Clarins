@@ -1,0 +1,26 @@
+.osm {
+  box-sizing: border-box; }
+  .osm *, .osm:after, .osm:before {
+    box-sizing: inherit;
+    outline: none;
+    scroll-behavior: smooth; }
+  .osm_center_block {
+    max-width: 1210px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .osm img {
+    max-width: 100%;
+    height: auto; }
+  .osm_block_why {
+    padding-top: 120px;
+    padding-bottom: 120px; }
+    .osm_block_why__title {
+      font-family: 'Times New Roman';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50px;
+      color: #333333;
+      margin-bottom: 24px; }
