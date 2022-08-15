@@ -2,6 +2,10 @@
   font-family: 'gp';
   src: url(../fonts/GothamPro.ttf) format("truetype"); }
 
+@font-face {
+  font-family: 'gpb';
+  src: url(../fonts/GothamPro-Bold.ttf) format("truetype"); }
+
 html, body {
   margin: 0;
   padding: 0; }
@@ -27,7 +31,7 @@ html, body {
   @media all and (max-width: 1023px) {
     .osmi_block_red {
       margin-top: 28px;
-      margin-bottom: 108px;
+      margin-bottom: 134px;
       flex-direction: column;
       margin-left: -20px;
       margin-right: -20px;
@@ -108,6 +112,294 @@ html, body {
         .osmi_block_red__r-side img {
           margin-left: auto;
           margin-right: auto; } }
+
+.osmi_prods {
+  box-sizing: border-box;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .osmi_prods *, .osmi_prods:after, .osmi_prods:before {
+    box-sizing: inherit;
+    outline: none;
+    scroll-behavior: smooth; }
+  .osmi_prods img {
+    width: 100%; }
+  @media all and (max-width: 1023px) {
+    .osmi_prods {
+      margin-top: 26px;
+      margin-bottom: 26px;
+      padding-left: 2px;
+      padding-right: 2px; } }
+  .osmi_prods__mag:not(:last-child) {
+    margin-bottom: 120px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__mag:not(:last-child) {
+        margin-bottom: 56px; } }
+  .osmi_prods__mag:last-child {
+    margin-bottom: 120px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__mag:last-child {
+        margin-bottom: 56px; } }
+  .osmi_prods__subtitle {
+    font-family: 'gp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__subtitle {
+        font-size: 14px;
+        margin-bottom: 26px; } }
+  .osmi_prods__item {
+    border: 5px solid #E5E5E5;
+    padding: 72px;
+    position: relative; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__item {
+        padding-top: 90px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+        border: 2px solid #E5E5E5; } }
+  .osmi_prods__main {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .osmi_prods__tit {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    background: #fff;
+    padding: 0 30px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__tit {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 0 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        top: -25px; } }
+  .osmi_prods__slider .slick-dots {
+    margin-top: 16px;
+    position: relative;
+    bottom: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .osmi_prods__slider .slick-dots li {
+      padding: 0;
+      width: auto;
+      height: auto;
+      margin: 0;
+      margin-left: 4px;
+      margin-right: 4px; }
+      .osmi_prods__slider .slick-dots li button {
+        width: 7px;
+        height: 7px;
+        padding: 0;
+        transition: all .3s ease-out;
+        margin: 0;
+        border-radius: 50%;
+        font-size: 0;
+        background: #BFBFBF; }
+        .osmi_prods__slider .slick-dots li button:before {
+          display: none; }
+      .osmi_prods__slider .slick-dots li.slick-active button {
+        background: #0C0C0C; }
+  .osmi_prods__slider .slick-list {
+    margin-left: -10px;
+    margin-right: -10px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__slider .slick-list {
+        margin-left: 0;
+        margin-right: 0; } }
+  .osmi_prods__prod {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #E5E5E5;
+    padding-bottom: 24px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__prod {
+        margin-left: 0;
+        margin-right: 0; } }
+  .osmi_prods__img {
+    background: #FBF6F3;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 50px;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px; }
+  .osmi_prods__title {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__title {
+        padding-left: 10px;
+        padding-right: 10px; } }
+  .osmi_prods__link {
+    background: #151515;
+    text-decoration: none;
+    font-family: 'gp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 18px 10px;
+    display: block;
+    max-width: 182px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #151515;
+    transition: all .3s ease-out; }
+    .osmi_prods__link:hover {
+      border: 2px solid #E5E5E5;
+      background: none;
+      color: #000; }
+    .osmi_prods__link:active {
+      background: #fff;
+      color: #000;
+      border: 2px solid #000; }
+  .osmi_prods__blocks {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__blocks {
+        flex-direction: column; } }
+  .osmi_prods__block {
+    width: calc(50% - 10px);
+    border: 1px solid #E5E5E5;
+    padding: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; }
+    @media all and (max-width: 1200px) {
+      .osmi_prods__block {
+        padding: 20px; } }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__block {
+        width: 100%;
+        padding: 0;
+        border: 0;
+        margin-bottom: 24px; } }
+    .osmi_prods__block--price {
+      width: calc(50% - 16px); }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__block--price {
+          width: 55%; } }
+      .osmi_prods__block--price span {
+        font-family: 'gp';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        color: #333333;
+        margin-bottom: 4px;
+        display: block; }
+        @media all and (max-width: 1023px) {
+          .osmi_prods__block--price span {
+            text-transform: uppercase;
+            font-size: 14px; } }
+    .osmi_prods__block--olds {
+      width: calc(50% - 16px); }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__block--olds {
+          width: 43%; } }
+    .osmi_prods__block--old {
+      font-family: 'gp';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #BDBDBD;
+      display: inline-block;
+      text-decoration: line-through;
+      margin-bottom: 4px; }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__block--old {
+          font-size: 14px; } }
+    .osmi_prods__block--new {
+      font-family: 'gp';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #B40024; }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__block--new {
+          font-size: 14px; } }
+  .osmi_prods__prc {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    color: #333333; }
+    @media all and (max-width: 1200px) {
+      .osmi_prods__prc {
+        font-size: 35px;
+        line-height: 35px; } }
+  .osmi_prods__promo {
+    width: calc(50% - 10px);
+    border: 1px solid #E5E5E5;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    @media all and (max-width: 1200px) {
+      .osmi_prods__promo {
+        padding: 20px; } }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__promo {
+        width: 100%;
+        padding: 0;
+        border: 0;
+        align-items: flex-start;
+        justify-content: flex-start; } }
+    .osmi_prods__promo--tit {
+      font-family: 'gp';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 10px; }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__promo--tit {
+          font-size: 14px; } }
+    .osmi_prods__promo--prom {
+      font-family: 'gpb';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      color: #333333; }
+      .osmi_prods__promo--prom span {
+        color: #B40024; }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__promo--prom {
+          font-size: 14px; } }
 
 .osmi_pref_block {
   box-sizing: border-box;
