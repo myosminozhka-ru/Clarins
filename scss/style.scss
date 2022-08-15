@@ -1,7 +1,7 @@
 // fonts
 @font-face {
     font-family: 'gp';
-    src: url(../fonts/GothamPro.ttf);
+    src: url(../fonts/GothamPro.ttf) format('truetype');
 }
 // fotns end
 
@@ -78,6 +78,40 @@
         &__slider {
             @media all and (min-width: 1024px) {
                 display: none;
+            }
+            .slick-dots {
+                margin-top: 16px;
+                position: relative;
+                bottom: unset;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                li {
+                    padding: 0;
+                    width: auto;
+                    height: auto;
+                    margin: 0;
+                    margin-left: 4px;
+                    margin-right: 4px;
+                    button {
+                        width: 7px;
+                        height: 7px;
+                        padding: 0;
+                        transition: all .3s ease-out;
+                        margin: 0;
+                        border-radius: 50%;
+                        font-size: 0;
+                        background: #BFBFBF;
+                        &:before {
+                            display: none;
+                        }
+                    }
+                    &.slick-active {
+                        button {
+                            background: #0C0C0C;
+                        }
+                    }
+                }
             }
         }
         &__buttons {
