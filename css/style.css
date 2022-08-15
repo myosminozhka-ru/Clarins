@@ -14,6 +14,101 @@ html, body {
   padding-left: 20px;
   padding-right: 20px; }
 
+.osmi_block_red {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 65px; }
+  .osmi_block_red *, .osmi_block_red:after, .osmi_block_red:before {
+    box-sizing: inherit;
+    outline: none;
+    scroll-behavior: smooth; }
+  @media all and (max-width: 1023px) {
+    .osmi_block_red {
+      margin-top: 28px;
+      margin-bottom: 108px;
+      flex-direction: column;
+      margin-left: -20px;
+      margin-right: -20px;
+      width: calc(100% + 20px);
+      background: #FBF6F3; } }
+  .osmi_block_red__l-side {
+    width: 62%;
+    background: #FBF6F3;
+    padding: 50px 135px;
+    padding-right: 78px; }
+    @media all and (max-width: 1200px) {
+      .osmi_block_red__l-side {
+        padding: 50px 70px; } }
+    @media all and (max-width: 1023px) {
+      .osmi_block_red__l-side {
+        width: 100%;
+        padding: 20px;
+        padding-left: 40px;
+        padding-bottom: 24px; } }
+  .osmi_block_red__title {
+    margin-bottom: 24px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    color: #333333; }
+    @media all and (max-width: 1023px) {
+      .osmi_block_red__title {
+        margin-bottom: 16px;
+        font-size: 35px;
+        line-height: 40px; } }
+  .osmi_block_red__text {
+    font-family: 'gp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333; }
+    @media all and (max-width: 1023px) {
+      .osmi_block_red__text {
+        font-size: 14px;
+        line-height: 22px; } }
+  .osmi_block_red__tit {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #333333;
+    margin-top: 32px;
+    margin-bottom: 16px; }
+    @media all and (max-width: 1023px) {
+      .osmi_block_red__tit {
+        font-size: 14px; } }
+  .osmi_block_red__link {
+    font-family: 'gp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #333333;
+    display: inline-block;
+    margin-top: 24px; }
+    .osmi_block_red__link:hover {
+      text-decoration: none; }
+  .osmi_block_red__r-side {
+    font-size: 0;
+    width: 38%; }
+    .osmi_block_red__r-side img {
+      width: 100%; }
+    @media all and (max-width: 1023px) {
+      .osmi_block_red__r-side {
+        width: 100%;
+        margin-bottom: -80px;
+        padding-left: 40px;
+        padding-right: 20px; }
+        .osmi_block_red__r-side img {
+          margin-left: auto;
+          margin-right: auto; } }
+
 .osmi_pref_block {
   box-sizing: border-box;
   background: #FBF6F3; }
