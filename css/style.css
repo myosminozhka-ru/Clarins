@@ -1,17 +1,6 @@
 @charset "UTF-8";
 /* slick theme */
 /* Slider */
-.slick-loading .slick-list {
-  background: #fff url("../img/ajax-loader.gif") center center no-repeat; }
-
-/* Icons */
-@font-face {
-  font-family: 'slick';
-  font-weight: normal;
-  font-style: normal;
-  src: url("../fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("../fonts/slick.woff") format("woff"), url("../fonts/slick.ttf") format("truetype"), url("../fonts/slick.svg#slick") format("svg"); }
-
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -241,14 +230,6 @@
   display: none; }
 
 /* slick end */
-@font-face {
-  font-family: 'gp';
-  src: url(../fonts/GothamPro.ttf) format("truetype"); }
-
-@font-face {
-  font-family: 'gpb';
-  src: url(../fonts/GothamPro-Bold.ttf) format("truetype"); }
-
 html, body {
   margin: 0;
   padding: 0; }
@@ -308,7 +289,7 @@ html, body {
   .osmi_block_red__title {
     margin: 0;
     margin-bottom: 24px;
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -320,7 +301,7 @@ html, body {
         font-size: 30px;
         line-height: 40px; } }
   .osmi_block_red__text {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -330,7 +311,7 @@ html, body {
         font-size: 14px;
         line-height: 22px; } }
   .osmi_block_red__tit {
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -343,7 +324,7 @@ html, body {
         font-size: 24px;
         margin-top: 32px; } }
   .osmi_block_red__link {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -407,7 +388,7 @@ html, body {
       .osmi_prods__mag:last-child {
         margin-bottom: 56px; } }
   .osmi_prods__subtitle {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -438,7 +419,7 @@ html, body {
     align-items: center;
     justify-content: center; }
   .osmi_prods__tit {
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -528,7 +509,7 @@ html, body {
         .osmi_prods__img img {
           max-height: inherit; } }
   .osmi_prods__title {
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -545,7 +526,7 @@ html, body {
   .osmi_prods__link {
     background: #151515;
     text-decoration: none;
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -597,7 +578,7 @@ html, body {
         .osmi_prods__block--price {
           width: 55%; } }
       .osmi_prods__block--price span {
-        font-family: 'gp';
+        font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -616,7 +597,7 @@ html, body {
         .osmi_prods__block--olds {
           width: 43%; } }
     .osmi_prods__block--old {
-      font-family: 'gp';
+      font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -628,7 +609,7 @@ html, body {
         .osmi_prods__block--old {
           font-size: 14px; } }
     .osmi_prods__block--new {
-      font-family: 'gp';
+      font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -637,7 +618,7 @@ html, body {
         .osmi_prods__block--new {
           font-size: 14px; } }
   .osmi_prods__prc {
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -666,7 +647,7 @@ html, body {
         align-items: flex-start;
         justify-content: flex-start; } }
     .osmi_prods__promo--tit {
-      font-family: 'gp';
+      font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -676,7 +657,7 @@ html, body {
         .osmi_prods__promo--tit {
           font-size: 14px; } }
     .osmi_prods__promo--subtit {
-      font-family: 'gp';
+      font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -686,7 +667,7 @@ html, body {
         .osmi_prods__promo--subtit {
           font-size: 14px; } }
     .osmi_prods__promo--prom {
-      font-family: 'gpb';
+      font-family: gotham ssm medium a,gotham ssm medium b,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -700,7 +681,7 @@ html, body {
   .osmi_prods__txt {
     padding: 0 20px; }
   .osmi_prods__lorem {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -727,7 +708,7 @@ html, body {
     margin-right: auto;
     cursor: pointer;
     margin-top: 12px;
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -745,7 +726,7 @@ html, body {
       .osmi_prods__mores {
         width: 100%; } }
     .osmi_prods__mores--text {
-      font-family: 'gp';
+      font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 11px;
@@ -754,7 +735,7 @@ html, body {
       margin-bottom: 16px; }
     .osmi_prods__mores--btn {
       display: inline-block;
-      font-family: 'gp';
+      font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 11px;
@@ -785,7 +766,7 @@ html, body {
         padding-top: 56px;
         padding-bottom: 40px; } }
   .osmi_pref_block__title {
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -833,7 +814,7 @@ html, body {
   .osmi_pref_block__info {
     width: 100%; }
   .osmi_pref_block__number {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -843,7 +824,7 @@ html, body {
       .osmi_pref_block__number {
         font-size: 14px; } }
   .osmi_pref_block__text {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -870,7 +851,7 @@ html, body {
     height: auto; }
   .osmi_block_why__title {
     margin: 0;
-    font-family: 'Times New Roman';
+    font-family: eb garamond,serif;
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -882,7 +863,7 @@ html, body {
         font-size: 30px;
         line-height: 114%; } }
   .osmi_block_why__subtitle {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -948,7 +929,7 @@ html, body {
     display: block;
     text-align: center;
     background: #151515;
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -966,7 +947,7 @@ html, body {
       color: #000;
       border: 2px solid #000; }
   .osmi_block_why__more {
-    font-family: 'gp';
+    font-family: gotham ssm book a,gotham ssm book b,Gotham,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
