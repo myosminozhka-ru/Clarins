@@ -222,12 +222,17 @@ html, body {
       .osmi_prods__slider .slick-list {
         margin-left: 0;
         margin-right: 0; } }
+  .osmi_prods__slider .slick-track {
+    display: flex; }
   .osmi_prods__prod {
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
     border: 1px solid #E5E5E5;
-    padding-bottom: 24px; }
+    padding-bottom: 24px;
+    display: flex !important;
+    flex-direction: column;
+    height: auto; }
     @media all and (max-width: 1023px) {
       .osmi_prods__prod {
         margin-left: 0;
@@ -241,7 +246,18 @@ html, body {
     padding: 42px 50px;
     margin-top: -1px;
     margin-left: -1px;
-    margin-right: -1px; }
+    margin-right: -1px;
+    min-height: 561px;
+    max-height: 561px; }
+    .osmi_prods__img img {
+      max-height: 100%;
+      width: auto; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__img {
+        max-height: 312px;
+        min-height: 312px; }
+        .osmi_prods__img img {
+          max-height: inherit; } }
   .osmi_prods__title {
     font-family: 'Times New Roman';
     font-style: normal;
@@ -273,7 +289,8 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #151515;
-    transition: all .3s ease-out; }
+    transition: all .3s ease-out;
+    margin-top: auto; }
     .osmi_prods__link:hover {
       border: 2px solid #E5E5E5;
       background: none;
@@ -388,6 +405,16 @@ html, body {
       @media all and (max-width: 1023px) {
         .osmi_prods__promo--tit {
           font-size: 14px; } }
+    .osmi_prods__promo--subtit {
+      font-family: 'gp';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #333333;
+      margin-top: 10px; }
+      @media all and (max-width: 1023px) {
+        .osmi_prods__promo--subtit {
+          font-size: 14px; } }
     .osmi_prods__promo--prom {
       font-family: 'gpb';
       font-style: normal;
@@ -400,14 +427,86 @@ html, body {
       @media all and (max-width: 1023px) {
         .osmi_prods__promo--prom {
           font-size: 14px; } }
+  .osmi_prods__txt {
+    padding: 0 20px; }
+  .osmi_prods__lorem {
+    font-family: 'gp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 1;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    transition: all .3s ease-out; }
+    .osmi_prods__lorem.isActive {
+      line-clamp: unset;
+      overflow: unset;
+      display: block; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__lorem {
+        FZ: 14px; } }
+  .osmi_prods__button {
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 12px;
+    font-family: 'gp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #333333;
+    display: inline-block;
+    margin-bottom: 32px; }
+    .osmi_prods__button:hover {
+      text-decoration: none; }
+  .osmi_prods__mores {
+    margin-top: 24px;
+    width: 50%; }
+    @media all and (max-width: 1023px) {
+      .osmi_prods__mores {
+        width: 100%; } }
+    .osmi_prods__mores--text {
+      font-family: 'gp';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 22px;
+      color: #333333;
+      margin-bottom: 16px; }
+    .osmi_prods__mores--btn {
+      display: inline-block;
+      font-family: 'gp';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      text-decoration-line: underline;
+      text-transform: uppercase;
+      color: #333333; }
+      .osmi_prods__mores--btn:hover {
+        text-decoration: none; }
 
 .osmi_pref_block {
   box-sizing: border-box;
-  background: #FBF6F3; }
+  background: #FBF6F3;
+  margin-top: 60px;
+  margin-bottom: 60px; }
   .osmi_pref_block *, .osmi_pref_block:after, .osmi_pref_block:before {
     box-sizing: inherit;
     outline: none;
     scroll-behavior: smooth; }
+  @media all and (max-width: 1023px) {
+    .osmi_pref_block {
+      margin-top: 28px;
+      margin-bottom: 28px; } }
   .osmi_pref_block__in {
     padding-top: 60px;
     padding-bottom: 36px; }
@@ -485,8 +584,8 @@ html, body {
         font-size: 14px; } }
 
 .osmi_block_why {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   box-sizing: border-box; }
   .osmi_block_why *, .osmi_block_why:after, .osmi_block_why:before {
     box-sizing: inherit;
@@ -494,8 +593,8 @@ html, body {
     scroll-behavior: smooth; }
   @media all and (max-width: 1023px) {
     .osmi_block_why {
-      padding-top: 56px;
-      padding-bottom: 56px; } }
+      padding-top: 28px;
+      padding-bottom: 28px; } }
   .osmi_block_why img {
     max-width: 100%;
     height: auto; }
