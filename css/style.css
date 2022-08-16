@@ -38,7 +38,7 @@ html, body {
       width: calc(100% + 20px);
       background: #FBF6F3; } }
   .osmi_block_red__l-side {
-    width: 62%;
+    width: 63%;
     background: #FBF6F3;
     padding: 50px 135px;
     padding-right: 78px; }
@@ -101,9 +101,13 @@ html, body {
       text-decoration: none; }
   .osmi_block_red__r-side {
     font-size: 0;
-    width: 38%; }
+    width: 37%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     .osmi_block_red__r-side img {
-      width: 100%; }
+      max-width: 100%; }
     @media all and (max-width: 1023px) {
       .osmi_block_red__r-side {
         width: 100%;
@@ -630,9 +634,10 @@ html, body {
         font-size: 14px;
         line-height: 22px; } }
   .osmi_block_why__img {
-    font-size: 0; }
-    .osmi_block_why__img img {
-      width: 100%; }
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
     @media all and (max-width: 1023px) {
       .osmi_block_why__img {
         display: none; } }
