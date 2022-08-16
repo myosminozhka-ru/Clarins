@@ -383,10 +383,13 @@ html, body {
             background: #FBF6F3;
         }
         &__l-side {
-            width: 50%;
+            width: 51%;
             background: #FBF6F3;
             padding: 50px 135px;
             padding-right: 78px;
+            @media all and (max-width: 1460px) {
+                width: 52%;
+            }
             @media all and (max-width: 1200px) {
                 padding: 50px 70px;
             }   
@@ -430,10 +433,11 @@ html, body {
             font-size: 35px;
             line-height: 35px;
             color: #333333;
-            margin-top: 32px;
+            margin-top: 42px;
             margin-bottom: 16px;
             @media all and (max-width: 1023px) {
                 font-size: 24px;
+                margin-top: 32px;
             }
         }
         &__link {
@@ -445,9 +449,12 @@ html, body {
             text-transform: uppercase;
             color: #333333;
             display: inline-block;
-            margin-top: 24px;
+            margin-top: 31px;
             &:hover {
                 text-decoration: none;
+            }
+            @media all and (max-width: 1023px) {
+                margin-top: 24px;
             }
         }
         &__r-side {
@@ -459,6 +466,9 @@ html, body {
             justify-content: flex-start;
             img {
                 max-width: 100%;
+            }
+            @media all and (max-width: 1460px) {
+                width: 49%;
             }
             @media all and (max-width: 1023px) {
                 width: 100%;
