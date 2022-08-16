@@ -52,6 +52,7 @@ html, body {
         padding-left: 40px;
         padding-bottom: 24px; } }
   .osmi_block_red__title {
+    margin: 0;
     margin-bottom: 24px;
     font-family: 'Times New Roman';
     font-style: normal;
